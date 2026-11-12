@@ -1,0 +1,42 @@
+{
+  "name": "adspirer-search-ads",
+  "displayName": "Adspirer Search Ads",
+  "description": "Run Google Ads and Microsoft Advertising (Bing Ads) search campaigns from Claude through Adspirer's hosted Search Ads MCP server. Research Google keywords with live CPC and search volume, review search terms and add negative keywords, find wasted spend, check impression share and Quality Score, and manage bids, budgets and responsive search ad copy across Search, Shopping and Performance Max. It can also read Google Analytics 4, Search Console and Tag Manager when you connect them, and audit conversion tracking. New campaigns are created paused, and every spend change needs your approval.",
+  "author": {
+    "name": "Adspirer",
+    "email": "support@adspirer.com",
+    "url": "https://www.adspirer.com"
+  },
+  "homepage": "https://www.adspirer.com",
+  "documentationUrl": "https://www.adspirer.com/docs/ai-clients/claude-code",
+  "repository": "https://github.com/Adspirer/adspirer-search-ads-claude-plugin",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "privacyPolicyUrl": "https://www.adspirer.com/privacy",
+  "termsOfServiceUrl": "https://www.adspirer.com/terms",
+  "keywords": [
+    "adspirer",
+    "advertising",
+    "ppc",
+    "paid-search",
+    "sem",
+    "google-ads",
+    "microsoft-ads",
+    "bing-ads",
+    "performance-max",
+    "shopping-ads",
+    "keyword-research",
+    "negative-keywords",
+    "search-terms",
+    "quality-score",
+    "responsive-search-ads",
+    "wasted-spend",
+    "roas",
+    "cpa",
+    "conversion-tracking",
+    "google-analytics",
+    "search-console",
+    "tag-manager",
+    "mcp"
+  ]
+}

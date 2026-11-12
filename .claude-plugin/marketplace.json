@@ -1,0 +1,20 @@
+{
+  "name": "adspirer-search-ads",
+  "owner": {
+    "name": "Adspirer",
+    "email": "support@adspirer.com"
+  },
+  "metadata": {
+    "description": "Run Google Ads and Microsoft Advertising (Bing Ads) search campaigns from Claude through Adspirer's hosted Search Ads MCP server. Research Google keywords with live CPC and search volume, review search terms and add negative keywords, find wasted spend, check impression share and Quality Score, and manage bids, budgets and responsive search ad copy across Search, Shopping and Performance Max. It can also read Google Analytics 4, Search Console and Tag Manager when you connect them, and audit conversion tracking. New campaigns are created paused, and every spend change needs your approval."
+  },
+  "plugins": [
+    {
+      "name": "adspirer-search-ads",
+      "source": "./",
+      "description": "Run Google Ads and Microsoft Advertising (Bing Ads) search campaigns from Claude through Adspirer's hosted Search Ads MCP server. Research Google keywords with live CPC and search volume, review search terms and add negative keywords, find wasted spend, check impression share and Quality Score, and manage bids, budgets and responsive search ad copy across Search, Shopping and Performance Max. It can also read Google Analytics 4, Search Console and Tag Manager when you connect them, and audit conversion tracking. New campaigns are created paused, and every spend change needs your approval.",
+      "author": {
+        "name": "Adspirer"
+      }
+    }
+  ]
+}
