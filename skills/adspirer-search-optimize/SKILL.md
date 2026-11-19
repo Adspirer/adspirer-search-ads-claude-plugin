@@ -10,7 +10,7 @@ Propose changes, then execute only after approval of the specific action and acc
 
 ## Find waste
 
-Discover Google analyze_wasted_spend and analyze_search_terms through google_ads_read. For Microsoft, inspect available campaign configuration; do not invent equivalent reporting tools.
+Discover Google analyze_wasted_spend and analyze_search_terms through google_ads_read. For Microsoft, discover analyze_microsoft_wasted_spend and analyze_microsoft_search_terms through bing_ads_read.
 Distinguish zero conversions, high CPA, irrelevant traffic, placement/audience mismatch,
 tracking gaps, and weak creative. Do not label small samples or conversion lag as failure.
 

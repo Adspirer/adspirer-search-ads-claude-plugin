@@ -36,6 +36,17 @@ Write five new responsive search ad headlines from my best-converting queries.
 Audit my conversion tracking before I launch anything.
 ```
 
+Or start with a slash command:
+
+| Command | What it does |
+| --- | --- |
+| `/adspirer-search-ads:setup` | Connect your accounts and get a first look |
+| `/adspirer-search-ads:status` | Connected accounts and remaining plan usage |
+| `/adspirer-search-ads:performance-review` | Scorecard against the previous period, with the top problems |
+| `/adspirer-search-ads:wasted-spend` | Spend that is not converting, with fixes applied only after you approve |
+
+Commands take an optional platform and period, for example `/adspirer-search-ads:performance-review last 7 days`. In claude.ai chat, where there is no slash menu, ask for the same thing in words.
+
 ## What the agent can do
 
 | Area | Capabilities |
@@ -53,6 +64,7 @@ Google Ads and Microsoft Advertising are the advertising platforms on this conne
 
 - **Skills:** `adspirer-search-agent`, `adspirer-search-campaigns`, `adspirer-search-competitors`, `adspirer-search-creative`, `adspirer-search-docs`, `adspirer-search-google-ads`, `adspirer-search-google-analytics`, `adspirer-search-google-search-console`, `adspirer-search-google-tag-manager`, `adspirer-search-keywords`, `adspirer-search-mcp`, `adspirer-search-measurement`, `adspirer-search-microsoft-ads`, `adspirer-search-optimize`, `adspirer-search-performance-review`, `adspirer-search-setup`.
 - **A subagent** (`adspirer-search-advertising-agent`) that coordinates those skills.
+- **Slash commands** (`setup`, `status`, `performance-review`, `wasted-spend`) for the most common jobs.
 - **The Adspirer Search Ads MCP server** connection (`.mcp.json`).
 
 The hosted server is the source of truth for tool names and schemas. The skills teach the agent to
@@ -89,7 +101,7 @@ server-side with Adspirer and are scoped to the accounts you connect.
 ## Network and execution surface
 
 The plugin's only MCP server is `https://mcp.adspirer.com/search-ads`. It contains no hooks, scripts, telemetry,
-local executables, or bundled server code. Skills, the subagent are Markdown
+local executables, or bundled server code. Skills, the subagent, and commands are Markdown
 guidance. Beyond the Adspirer server, the skills may ask Claude to read Adspirer's public
 documentation at `adspirer.com/docs` to answer questions about plans and setup.
 

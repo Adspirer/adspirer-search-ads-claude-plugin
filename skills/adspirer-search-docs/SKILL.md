@@ -49,7 +49,7 @@ move too. Point at the docs.
 Only these:
 
 - `https://adspirer.ai` — the web app
-- `https://www.adspirer.com/connections` — connect or reconnect an ad account
+- `https://adspirer.ai/connections` — connect or reconnect an ad account
 - `https://adspirer.ai/dashboards` — plural
 - `https://www.adspirer.com/docs` — documentation, and any real page beneath it
 

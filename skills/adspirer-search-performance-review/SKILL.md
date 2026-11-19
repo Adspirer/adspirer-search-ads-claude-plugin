@@ -1,6 +1,6 @@
 ---
 name: adspirer-search-performance-review
-description: Read-only Google Ads reporting and Microsoft account inspection, scorecards, conversion checks, and evidence-backed recommendations.
+description: Read-only Google Ads and Microsoft Advertising reporting, scorecards, conversion checks, and evidence-backed recommendations.
 ---
 
 # Performance review
@@ -10,7 +10,7 @@ Check get_connections_status and select the intended account before reading data
 
 ## Sources
 
-Google: get_campaign_performance if advertised, plus discovered google_ads_read reports. Microsoft: discover bing_ads_read operations; the inspected catalog is inspection-oriented, not equivalent performance reporting.
+Google: get_campaign_performance if advertised, plus discovered google_ads_read reports. Microsoft: discover bing_ads_read operations such as get_microsoft_campaign_performance and the analyze_microsoft_* insights; its metrics and attribution are not identical to Google's.
 Use raw_data only if the actual schema accepts it; do not assume widget rendering.
 
 ## Trust the numbers
