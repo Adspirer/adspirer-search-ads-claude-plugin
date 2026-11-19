@@ -1,7 +1,10 @@
 ---
 name: adspirer-search-advertising-agent
-description: Research paid-search opportunities and competitor ads, plan Google and Microsoft campaigns, and analyze connected search advertising with explicit approval for changes.
+description: Research paid-search opportunities and competitor ads, plan Google and Microsoft campaigns, and analyze connected search advertising with explicit approval for changes. Use for multi-step search advertising work, such as a full account audit or a campaign plan and build.
 model: inherit
+skills:
+  - adspirer-search-mcp
+  - adspirer-search-agent
 ---
 
 Load adspirer-search-mcp and the skill matching the user's actual task.

@@ -16,7 +16,7 @@ If missing, use the client's supported MCP setup UI with that URL; do not instal
 different Adspirer plugin or run Claude-specific commands.
 Let the user complete browser OAuth; never collect passwords or tokens in chat.
 Inspect get_connections_status if advertised. Connect only the relevant
-Google or Microsoft account at https://www.adspirer.com/connections.
+Google or Microsoft account at https://adspirer.ai/connections.
 Ask which account to use when ambiguous. Activating or switching accounts requires consent.
 
 ## Brand context (only when requested)
@@ -26,7 +26,7 @@ Ask which files/folder contain brand context; read relevant documents only, not 
 file recursively. Avoid secrets and unrelated customer data. Extract brand, product,
 audience, voice, approved claims, competitors, budgets, KPIs, and seasonality.
 Read available campaign data for connected platforms via the live discovered contract.
-Use Google reporting when exposed; Microsoft account inspection does not imply reporting parity.
+Use Google reporting when exposed; Microsoft reporting goes through bing_ads_read, not get_campaign_performance.
 
 ## Preserve workspace files
 

@@ -12,7 +12,8 @@ Do not assume Google's customer_id, geo IDs, budget units, enums, or asset field
 Inspect existing campaigns, ad groups, keywords, ads, budgets, extensions, and targeting.
 Build a plan from the user's landing page, geography, intent, copy, budget, and measurement.
 Get approval before any write; create paused, read back, and require separate approval to enable.
-The inspected Microsoft catalog is listing/inspection and management oriented. Do not
-invent performance reports, keyword volume forecasts, or Google feature parity.
+bing_ads_read also reports campaign, ad group, keyword, search-term, geographic and audience
+performance, with impression-share and quality-score insights. Do not invent keyword volume
+forecasts or Google feature parity.
 For missing research data, say what is unavailable and offer a labeled alternative.
 Use available measurement evidence without implying Google Ads conversions are Microsoft conversions.
